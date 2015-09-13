@@ -1,0 +1,12 @@
+<div style="padding-left:50px; padding-right:50px" class="jumbotron">
+  <label for="number1" style="font-size: 13pt;
+" class="label label-danger">First Number</label>
+  <input name="number1" type="number" ng-model="number1">
+  <label for="number2" style="font-size: 13pt;
+" class="label label-danger">Second Number</label>
+  <input name="number2" type="number" ng-model="number2">
+  <button class="btn btn-primary" ng-click="add(number1, number2)">
+    <i class="fa fa-plus" style="font-size: 24pt;"></i>
+  </button>
+  <p>Sum: {{ sum }}</p>
+</div>
